@@ -1,0 +1,56 @@
+/* Thomas Cassler - 4/19/2022 */
+.bold {
+    font-weight: bold;
+    font-style: normal;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.center{
+    text-align: center;
+}
+
+.center-image{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+}
+
+.font{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+p {
+    font-size: larger;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.link {
+    color: deepskyblue;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .sub-width{
+      margin-left: -10%;
+  }
